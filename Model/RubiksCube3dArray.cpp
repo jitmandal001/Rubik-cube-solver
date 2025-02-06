@@ -73,6 +73,7 @@ public:
     }
 
     RubiksCube &uPrime() override {
+        //l' is just calling the l function thrice
         this->u();
         this->u();
         this->u();
